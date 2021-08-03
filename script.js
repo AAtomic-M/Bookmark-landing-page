@@ -113,26 +113,26 @@ document
     }
   });
 
-///////////////////////////////////////////////////////////////////////////////////////
-//3. Reveal sections
-///////////////////////////////////////////////////////////////////////////////////////
+// ///////////////////////////////////////////////////////////////////////////////////////
+// //3. Reveal sections
+// ///////////////////////////////////////////////////////////////////////////////////////
 
-const allSections = document.querySelectorAll(".section"); // array of sections with a class of "section"
-const revealSection = function (entries, observer) {
-  const [entry] = entries;
+// const allSections = document.querySelectorAll(".section"); // array of sections with a class of "section"
+// const revealSection = function (entries, observer) {
+//   const [entry] = entries;
 
-  if (!entry.isIntersecting) return;
+//   if (!entry.isIntersecting) return;
 
-  entry.target.classList.remove("section--hidden");
-  observer.unobserve(entry.target);
-}; // defining observer function, remove 'section--hidden' class and stop observer
+//   entry.target.classList.remove("section--hidden");
+//   observer.unobserve(entry.target);
+// }; // defining observer function, remove 'section--hidden' class and stop observer
 
-const sectionObserver = new IntersectionObserver(revealSection, {
-  root: null,
-  threshold: 0.15,
-}); // observer function and behavour
+// const sectionObserver = new IntersectionObserver(revealSection, {
+//   root: null,
+//   threshold: 0.15,
+// }); // observer function and behavour
 
-allSections.forEach(function (section) {
-  sectionObserver.observe(section); //puting observer on array of sections, what to observe
-  section.classList.add("section--hidden"); //add class 'section--hidden'
-});
+// allSections.forEach(function (section) {
+//   sectionObserver.observe(section); //puting observer on array of sections, what to observe
+//   section.classList.add("section--hidden"); //add class 'section--hidden'
+// });

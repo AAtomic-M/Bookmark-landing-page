@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AAtomic-M/bookmark-landing-page-master)
-- Live Site URL: [Add live site URL here](https://bookmark-page-frontendmentor.netlify.app/)
+- Solution URL: [here](https://github.com/AAtomic-M/bookmark-landing-page-master)
+- Live Site URL: [here](https://bookmark-page-frontendmentor.netlify.app/)
 
 ## My process
 
