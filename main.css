@@ -267,6 +267,7 @@ nav button {
   grid-template-rows: 2;
   margin-bottom: 5rem;
 }
+
 .hero__illustration {
   grid-row: 1;
 }
@@ -625,7 +626,7 @@ nav button {
     width: 100%;
   }
   .mail_submit {
-    width: fit-content;
+    width: max-content;
   }
   .mail input,
   .mail button {
